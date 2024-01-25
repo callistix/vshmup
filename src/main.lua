@@ -1,10 +1,14 @@
 -- improvements:
+--  - gemini project log
+--      - requires open-sourcing the code somewhere (github, gitlab, sourcehut)
 --  - enemies shoot at player (in progress)
 --  - enemy waves (pre-programming enemy movements)
 --  - player has 3 lives
 
+
 GAME_STATE_RUN = 0
 GAME_STATE_KILLED = 1
+
 
 function love.load()
     math.randomseed(os.time())
@@ -28,8 +32,8 @@ function love.load()
     enemies.list = {}
 
     game_state = GAME_STATE_RUN
-
 end
+
 
 function love.update(dt)
     if game_state == GAME_STATE_RUN then
@@ -59,6 +63,7 @@ function love.update(dt)
     end
 end
 
+
 function love.draw()
     if game_state == GAME_STATE_RUN then
         love.graphics.draw(spritesheet, quad_player, player.x, player.y)
@@ -75,11 +80,13 @@ function love.draw()
     end
 end
 
+
 function love.keypressed(key)
     if key == "escape" then
         love.event.quit()
     end
 end
+
 
 function player_shoot()
     if player.shoot_t == 0 then
@@ -91,6 +98,7 @@ function player_shoot()
         player.shoot_t = 0
     end
 end
+
 
 function detect_collisions()
 
@@ -129,6 +137,7 @@ function detect_collisions()
     end
 end
 
+
 function player_shots_update()
     for shot in pairs(player.shots) do
         player.shots[shot].y = player.shots[shot].y - 4
@@ -138,6 +147,7 @@ function player_shots_update()
         end
     end
 end
+
 
 function enemies_update()
     enemies.next_t = enemies.next_t - 1
