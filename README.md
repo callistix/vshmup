@@ -18,4 +18,4 @@ Project log:
 
 * gemini://callistix.srht.site/projects/vshmup/index.gmi
 
-(download Gemini browsers like [Lagrange](https://git.skyjake.fi/gemini/lagrange/releases) to read the log)
+(download Gemini browsers like [Lagrange](https://git.skyjake.fi/gemini/lagrange) to read the log)
