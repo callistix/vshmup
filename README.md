@@ -1,5 +1,11 @@
 # vshmup
 
+## Installation
+
+* download `LÖVE` 11 from <https://love2d.org/>
+* clone this repository
+* run the game as described [here](https://love2d.org/wiki/Getting_Started)
+
 ## some notes
 
 ### calculate shot angle in radians
