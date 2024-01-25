@@ -6,6 +6,12 @@
 * clone this repository
 * run the game as described [here](https://love2d.org/wiki/Getting_Started)
 
+## Playing
+
+* steer the ship with cursor left and right keys
+* shot with space key
+* don't die and play forever
+
 ## some notes
 
 ### calculate shot angle in radians
