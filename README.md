@@ -14,4 +14,4 @@
 
 ## Links
 
-* [callistix Gemini capsule: project log](gemini://callistix.srht.site/projects/vshmup/index.gmi) (download Gemini browsers like [Lagrange](https://git.skyjake.fi/gemini/lagrange/releases) to read the log)
+* callistix Gemini capsule project log: <gemini://callistix.srht.site/projects/vshmup/index.gmi> (download Gemini browsers like [Lagrange](https://git.skyjake.fi/gemini/lagrange/releases) to read the log)
