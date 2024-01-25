@@ -1,9 +1,9 @@
 -- improvements:
 --  - gemini project log
---      - requires open-sourcing the code somewhere (github, gitlab, sourcehut)
 --  - enemies shoot at player (in progress)
 --  - enemy waves (pre-programming enemy movements)
 --  - player has 3 lives
+--  - joystick / gamepad support
 
 
 GAME_STATE_RUN = 0

@@ -1,4 +1,4 @@
-# whatever
+# vshmup
 
 ## some notes
 
@@ -28,3 +28,5 @@ b = sqrt(x_dist^2 + y_dist^2 - 2 * x_dist * y_dist * cos(pi/2))
 ```
 γ = asin(y_dist / (sqrt(x_dist^2 + y_dist^2 - 2 * x_dist * y_dist * cos(pi/2))))
 ```
+
+- still too complex, unlikely to be useful in the code
